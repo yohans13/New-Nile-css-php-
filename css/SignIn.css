@@ -1,0 +1,155 @@
+.main{
+
+height: 550px;
+font-family: 'Mulish', sans-serif;
+}
+
+
+
+
+.signinBody{
+margin-top: 100px;
+height: 500px;
+font-family: 'Mulish', sans-serif;
+width: 650px;
+
+position: absolute;
+
+}
+
+
+.signinBody h1{
+	text-align: center;
+}
+
+
+.leftside{
+	margin-left: 10%;
+	margin-right: 10%;
+	float: left;
+}
+
+
+input[type=email]{
+	padding: 10px;
+	margin-top: 10px;
+	width: 85%;
+}
+
+input[type=password]{
+	padding: 10px;
+	margin-top: 10px;
+	width: 85%;
+}
+
+label{
+	margin-bottom: 30px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.leftside a {
+	margin-bottom: 30px;
+	font-family: 'Montserrat', sans-serif;
+	border-bottom : 1px solid gray;
+	font-size: 14px;
+
+}
+
+.leftside a:hover {
+	color:tomato;
+	margin-bottom: 30px;
+	font-family: 'Montserrat', sans-serif;
+	border-bottom : 1px solid tomato;
+
+}
+
+.leftside input[type=submit]{
+	padding: 10px;
+	background-color: #231f20;
+	margin: 10px;
+	text-shadow: none;
+	color: white;
+	border: 0px;
+	padding: 12px;
+	width: 100px;
+}
+
+.leftside input[type=submit]:hover{
+background-color: #ef5501;
+color: white;
+transition: 0.5s;
+}
+
+.rightside{
+	margin-top: 110px;
+	margin-left: 35%;
+	
+	float: right;
+	background-color: #f2f2f2;
+	position: relative;
+	padding: 20px;
+	height: 240px;
+	width: 400px;
+}
+
+
+.classTitle{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.classbody{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+}
+
+.classlist{
+	margin-left: 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+}
+
+
+
+.rightside input[type=submit]{
+	padding: 10px;
+	background-color: #231f20;
+	margin: 25px;
+	text-shadow: none;
+	color: white;
+	border: 0px;
+	padding: 12px;
+	width: 150px;
+}
+
+.rightside input[type=submit]:hover{
+background-color: #ef5501;
+color: white;
+transition: 0.5s;
+}
+
+
+.displaycrt {
+background-color: #d5ffd8;
+padding: 10px;
+margin: 10px 10px 10px 0px;
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+color: green;
+}
+
+
+/* website fonts:;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Russo One', sans-serif;
+*/
+
+
+
+
+
+
+
+

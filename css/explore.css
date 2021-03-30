@@ -1,0 +1,76 @@
+.main{
+margin: 30px 30px  30px 10%;
+height: auto;
+font-family: 'Mulish', sans-serif;
+width: 80%;
+
+padding: 20px;
+}
+
+.title{
+	margin-top: 110px;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.item{
+	width: 300px;
+	height: 350px;
+
+	float: left;
+	border:1px solid #d3cfcf;
+	margin: 10px;
+}
+
+.product{
+	padding: 5px;
+}
+
+.titleText{
+	text-align: center;
+	padding: 10px 10px 5px 10px;
+}
+
+.prodimg{
+	width: 100%;
+}
+
+.titleprice{
+	font-family: 'Mulish', sans-serif;
+	text-align: center;
+	padding: 15px;
+	color:green;
+
+}
+
+.quantity{
+	margin-left: 15px;
+	height: 25px;
+	width: 100px;
+}
+
+input[type=number]{
+	border: 1px solid gray;
+	text-align: center;
+}
+
+input[type=submit]{
+	border: 0px solid gray;
+	text-align: center;
+	background-color: #1a9341;
+	padding: 7px 20px 7px 20px;
+	color: white;
+}
+input[type=submit]:hover{
+	background-color:#167a37;
+	color: white;
+}
+
+
+
+
+/* website fonts:;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Russo One', sans-serif;
+*/

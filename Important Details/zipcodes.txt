@@ -1,0 +1,54 @@
+Eastern	Ampara	Ampara	32000
+Eastern	Kattankudy	Kattankudy	30100
+Eastern	Batticaloa	Batticaloa	30000
+North Central	Anuradhapura	Anuradhapura	50000
+Uva	Badulla	Badulla	90000
+Western	Colombo	Battaramulla	10120
+Western	Colombo	Bambalapitiya	00400
+Western	Colombo	Wellawatte	00600
+Western	Colombo	Colpetty	00300
+Western	Colombo	Narahenpita	00500
+Western	Colombo	Borella	00800
+Western	Colombo	Cinnamon Gardens	00700
+Western	Colombo	Dematagoda	00900
+Western	Colombo	Fort	00100
+Western	Colombo	Hultsdorf	01200
+Western	Colombo	Kotahena	01300
+Western	Colombo	Maradana	01000
+Western	Colombo	Grandpass	01400
+Western	Colombo	Mutwal	01500
+Western	Colombo	Pettah	01100
+Western	Colombo	Slave Island	00200
+Western	Colombo	Sri Jayawardenepura	10100
+Western	Colombo	Rajagiriya	10107
+Central	Kandy	Dambulla	21100
+Western	Colombo	Dehiwala	10350
+Southern	Galle	Galle	80000
+Western	Gampaha	Gampaha	11000
+Southern	Hambantota	Hambantota	82000
+Western	Gampaha	Ja-Ela	11350
+Northern	Jaffna	Jaffna	40000
+Eastern	Ampara	Kalmunai	32300
+Western	Kalutara	Kalutara	12000
+Western	Gampaha	Katunayake	11450
+Central	Kandy	Kandy	20000
+Sabaragamuwa	Kegalle	Kegalle	71000
+Sabaragamuwa	Ratnapura	Udawalawe	70190
+Western	Colombo	Kolonnawa	10600
+North Western	Kurunegala	Kurunegala	60000
+Western	Colombo	Maharagama	10280
+Northern	Mannar	Mannar	41000
+Central	Matale	Matale	21000
+Southern	Matara	Matara	81000
+Western	Gampaha	Minuwangoda	11550
+Uva	Monaragala	Monaragala	91000
+Western	Colombo	Moratuwa	10400
+Western	Colombo	Mount Lavinia	10370
+Northern	Mullaitivu	Mullaitivu	42000
+Western	Gampaha	Negombo	11500
+Central	Nuwara Eliya	Nuwara Eliya	22200
+North Central	Polonnaruwa	Polonnaruwa	51000
+North Western	Puttalam	Puttalam	61300
+Sabaragamuwa	Ratnapura	Ratnapura	70000
+Eastern	Trincomalee	Trincomalee	31000
+Northern	Vavuniya	Vavuniya	43000

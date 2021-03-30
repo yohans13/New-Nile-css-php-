@@ -1,0 +1,186 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+
+
+
+/* ----------- Footer page css -------------*/
+
+
+
+
+.Footermain{
+	background-color: #231f20;
+	height: 80px;
+	width: 100%;
+
+	 
+
+}
+
+
+
+
+		
+
+
+.copyrigths p{
+	font-family: 'Mulish', sans-serif;
+	margin: 10px;
+	font-size: 10px;
+	color: white;
+	text-align: center;
+}
+
+.mobilecopyrigths{
+	display: none;
+}
+
+.mobileSocialmedia{
+	display: none;
+}
+
+.pp1 p{
+	
+	top: 92%;
+}
+
+
+/* ----------- Footer page css -------------*/
+
+
+
+/* ----------- change for different size displays -------------*/
+
+@media screen and (max-width: 1000px){
+
+	.Footermain{
+  
+  width: 100%;
+  height: 100%; 
+}
+
+.copyrigths{
+	display: none;
+}
+
+.fixbtn a img{
+	
+	position: fixed;
+	top:506px;
+	left:80%;
+	width: 80px;
+	z-index: 999;
+	padding: 10px;
+
+}
+	
+	.set1,.set2,.set3{
+	clear:both;
+	}
+
+	.Socialmedia{
+	
+	display: none;
+	}
+
+	.Footermain{
+		height: 630px;
+	}
+
+	.copyrigths p{
+	display: none;
+}
+
+.mobilecopyrigths{
+	display: block;
+	background-color: #231f20;
+	color: white;
+}
+
+.mobilecopyrigths p{
+	font-family: 'Montserrat', sans-serif;	
+	text-align: center;
+	position: relative;
+	color: white;
+	width:100%
+	z-index: 100;	
+	padding: 10px;
+	font-size: 7px;
+}
+
+.mobileSocialmedia {
+	
+	display: block;
+	clear:both;
+}
+
+
+.mobileSocialmedia a img{
+	width: 20px;
+	
+	position: relative;
+	
+
+	
+	font-size: 7px;
+	
+}
+
+.set1{
+	float: left;
+	margin-top: 3%;
+	margin-left: 3%;
+	font-size: 15px;
+	font-size: 25px;
+	border-bottom: 1px solid white;
+	padding-bottom: 15px;
+}
+
+.set2,.set3{
+	float: left;
+	margin-top: 3%;
+	margin-left: 5%;
+	font-size: 15px;
+	font-size: 25px;
+	border-bottom: 1px solid white;
+	padding-bottom: 15px;
+}
+
+.fixbtn a img{
+	
+	position: fixed;
+	top:480px;
+	left:80%;
+	width: 50px;
+	z-index: 999;
+	padding: 10px;
+
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* website fonts:;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Russo One', sans-serif;
+*/

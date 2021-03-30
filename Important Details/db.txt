@@ -1,0 +1,19 @@
+CREATE TABLE Orders(
+	Email varchar(50),
+    ItemId int,
+    quantity int,
+    TotalPrice Double,
+    PRIMARY KEY(Email,ItemID),
+    CONSTRAINT Fk_OrdersUser
+    FOREIGN Key(Email) REFERENCES user(Email)
+    on DELETE CASCADE ON UPDATE CASCADE,
+    CONSTRAINT Fk_OrdersItem
+    FOREIGN Key(ItemId) REFERENCES item(ItemId)
+    on DELETE CASCADE ON UPDATE CASCADE
+	);
+
+
+ALTER TABLE user 
+Add CONSTRAINT Fk_user
+FOREIGN Key(ZipCode) REFERENCES deliverfee(Zipcode)
+on DELETE CASCADE on UPDATE CASCADE;

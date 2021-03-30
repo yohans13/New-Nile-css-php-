@@ -1,0 +1,175 @@
+.main{
+margin-top: 40px;
+height: 470px;
+font-family: 'Mulish', sans-serif;
+}
+
+.pasta{
+margin-top: 40px;
+height: 3000px;
+font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.noodles{
+margin-top: 40px;
+height: 3000px;
+font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.papadam{
+margin-top: 40px;
+height: 2000px;
+font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.making{
+margin-top: 40px;
+height: 1200px;
+font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.blog{
+	margin-top: 40px;
+height: 210px;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.main1{
+margin-top: 10px;
+height: 450px;
+font-family: 'Mulish', sans-serif;
+}
+
+
+
+
+
+.signinBody{
+margin-top: 0px;
+height: 500px;
+font-family: 'Mulish', sans-serif;
+width: 650px;
+
+position: absolute;
+
+}
+
+
+.signinBody1{
+margin-top: 0px;
+height: 500px;
+font-family: 'Mulish', sans-serif;
+width: 650px;
+
+position: absolute;
+
+}
+
+
+.title{
+	margin-top: 150px;
+	text-align: center;
+	font-family: 'Mulish', sans-serif;
+
+}
+
+
+.leftside{
+	margin-left: 10%;
+	margin-right: 10%;
+	float: left;
+}
+
+.side{
+	
+	
+}
+
+
+
+
+
+img{
+	
+
+	position: relative;
+	font-family: 'Mulish', sans-serif;
+	width: 100%;
+}
+
+
+
+
+
+
+p{
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+}
+
+
+ img{
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+
+.fotmaking{
+	margin-top: 150px;
+}
+
+.fotnool{
+	margin-top: 1050px;
+}
+
+.fotpasta{
+	margin-top: 450px;
+}
+
+.fotpapadam{
+	margin-top: 110px;
+}
+
+
+.fotblog{
+	margin-top: 110px;
+}
+
+.side h2{
+	font-family: 'Russo One', sans-serif;
+}
+
+.side a{
+	
+	background-color: black;
+	text-align: center;
+	color: white;
+	font-family: 'Mulish', sans-serif;
+	padding: 15px 40px 15px 40px;
+	margin: 60px;
+	border-radius: 8px;
+	
+	
+
+
+}
+
+.side a:hover{
+	background-color: tomato;
+}
+
+/* website fonts:;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Russo One', sans-serif;
+*/

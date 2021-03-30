@@ -1,0 +1,822 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+
+
+/* ----------- body page css -------------*/
+
+
+
+.introimg   img:last-child {
+ 			 display: none; 
+			}
+
+.slideshow{
+
+	width: 100%;
+	background-color: #231f20
+
+}
+
+
+.introimg img{
+	
+	max-width: 100%;
+  max-height: 90%;
+
+
+}
+
+.toptext{
+	
+	position: absolute;
+	top:300px;
+	left: 35%;
+	right: 35%;
+	z-index: 920;
+	margin: 50px auto;
+	font-family: 'Mulish', sans-serif;
+	float: left;
+	color: white;
+	font-size: 30px;
+	text-shadow: 2px 2px 5px black;
+
+	
+}
+
+.toptext a{
+	z-index: 920; 	
+	padding: 3px 26px;
+	border:2px solid white;
+	color: white;
+	border-radius: 5px;
+	margin: 10%;
+}
+
+.toptext h2{
+
+margin: 10px;
+}
+
+
+.toptext a:hover{
+	background: white;
+	color: black;
+	transition: 1s;
+}
+
+.aboutbar {
+	padding-top: 10px;
+	background-color:  #231f20;
+	width: 100%;
+	height: 490px;
+	text-align: center;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	line-height: 50px;
+}
+
+.aboutbar img {
+	background-color:  #231f20;
+	width: 7%;
+	
+}
+
+.aboutbar h2{
+	font-size: 50px;
+}
+
+
+.map{
+	width: 100%
+}
+
+
+.bottamdiv{
+	background-color:#231f20;
+	height: 360px;
+	width: 100%;
+	position: relative;
+	font-family: 'Mulish', sans-serif;
+	font-size: 10px;	
+}
+
+
+.map h2,.fbdiv h2,.youtubediv h2,.twitterdiv h2,.instadiv h2{
+	
+	color: white;
+}
+
+
+.map iframe{
+filter: brightness(30%); 
+
+}
+
+.map iframe:hover{
+		filter: brightness(100%); 
+		transition: 1s;
+}
+
+
+.fbdiv img,.youtubediv img,.twitterdiv img,.instadiv img{
+
+	width: 245px;
+	filter: brightness(30%); 
+}
+
+
+
+.fbdiv img:hover,.youtubediv img:hover,.twitterdiv img:hover,.instadiv img:hover{
+	width: 245px;
+	filter: brightness(100%);
+	transition: 1s;
+}
+
+
+.map{
+	float: left;
+	padding: 0px 10px 0px 15px;
+	position: absolute;
+	background-color: transparent;
+	height: 250px;
+	width: 260px;
+	
+}
+
+.fbdiv {
+	float: left;
+	left: 20%;
+	position: absolute;
+	background-color: #231f20;
+	height: 250px;
+	width: 260px;
+	
+}
+
+.youtubediv {
+	float: left;
+	left: 40%;
+	position: absolute;
+	background-color: #231f20;
+	height: 250px;
+	width: 260px;
+	
+}
+
+
+.twitterdiv {
+	float: left;
+	left: 60%;
+	position: absolute;
+	background-color: #231f20;
+	height: 250px;
+	width: 260px;
+	
+}
+
+.instadiv {
+	float: left;
+	left: 80%;
+	position: absolute;
+	background-color: #231f20;
+	height: 250px;
+	width: 260px;
+	
+}
+
+
+
+.MVbar{
+	margin: 0px;
+	padding: 0px;
+	background-color: #231f20;
+	height: 180px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size: 20px;
+
+}
+
+.mright{
+	float: right;
+	margin: 20px;
+	margin-top: 4%;
+	margin-right:  5%;
+	border:1px solid gray;
+	padding: 10px;
+	height: 97px;
+}
+
+
+.vleft{
+float: left;
+margin: 20px;
+margin-top: 4%;
+margin-left: 5%;
+border:1px solid gray;
+padding: 10px;
+height: 97px;
+
+}
+
+
+
+
+.products{
+	margin: 0px;
+	padding: 0px;
+	height: 670px;
+	width: 100%;
+	
+	position: relative;
+
+}
+
+
+.section1{
+	width: 100%;
+	padding-top: 1px;
+	height: 20px;
+		top:0px;
+	
+}
+
+.section1 .proimg1 img{
+	width: 50%;
+	float: left;
+	filter: brightness(60%);
+	margin-right: 50px;
+
+}
+
+
+
+.section1 .proimg1 img:hover{
+
+	filter: brightness(100%);
+	transition: 1s;
+	margin-right: 50px;
+}
+
+
+.section1 .protext1 h1{
+	
+	background-color: transparent;
+	float:right;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+
+
+
+
+.section1 .protext1 {
+	text-align: justify;
+	padding: 10px;
+	margin: 30px;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+
+
+.section2{
+	width: 100%;
+	top:0px;
+
+}
+
+.section2 .proimg2 img{
+	width: 50%;
+	float: right;
+	filter: brightness(60%);
+	margin-left: 50px;
+}
+
+.section2 .proimg2 img:hover{
+
+	filter: brightness(100%);
+	transition: 1s;
+	margin-left: 50px;
+}
+
+.section2 .protext2 h1{
+	
+	top:110px;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	margin-top:340px;
+	padding-left: 30px;
+	
+}
+
+
+ .section2 .protext2 h4{
+ 	
+	padding: 10px;
+	margin: 0px 10px 10px 20px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+	width: 50%;
+}
+
+
+
+ .protext2:hover {
+ 	color: tomato;
+ 	transition: 1.5s;
+ }
+
+ .protext1:hover {
+ 	color: tomato;
+ 	transition: 1.5s;
+ }
+
+
+
+
+.search{
+	height: 200px;
+	width: 100%;
+}
+
+.search input[type=text]{
+	margin-top: 80px;
+	margin-left: 18%;
+	padding-left: 20px;
+	padding-right: 10%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border:1px solid gray;
+
+}
+
+.search input[type=submit]{
+	background-color: black;
+	color: white;
+	border:none;
+	font-family: 'Russo One', sans-serif;
+	padding: 10px;
+	text-align: center;
+	
+	font-size: 15px;
+	text-transform: uppercase;
+
+}
+
+.search input[type=submit]:hover{
+		background-color: tomato;
+		transition: 1s;
+}
+
+
+
+
+/* ----------- body page css -------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------- change for different size displays -------------*/
+
+
+@media screen and (max-width: 1220px){
+			
+	.MVbar{
+
+font-size: 17px;
+
+
+}
+
+.aboutbar{
+	font-size: 15px;
+}
+
+}
+
+
+@media screen and (max-width: 1055px){
+			
+	.MVbar{
+
+font-size: 14px;
+
+
+}
+
+.aboutbar{
+	font-size: 15px;
+}
+
+}
+
+@media screen and (max-width: 1000px){
+			
+	.slideshow{
+
+	width: 100%;
+	margin-top: 10%;
+
+	}
+
+
+	.search input[type=text]{
+	margin-top: 80px;
+	margin-left: 8%;
+	padding-left: 20px;
+	padding-right: 10%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border:1px solid gray;
+
+	}
+
+
+.products{
+	display: none;}
+
+}
+
+@media screen and (max-width: 900px){
+			
+	.toptext{
+	font-size: 20px;
+
+	}
+
+
+
+.bottamdiv{
+	display: none;
+}
+
+
+	.mright{
+
+	height: 41px;
+}
+
+
+.vleft{
+
+height: 41px;
+
+}
+
+	.MVbar{
+
+font-size: 10px;
+height: 26px;
+
+
+}
+
+.aboutbar{
+	font-size: 15px;
+}
+
+.search{
+	display: none;
+}
+
+.products{
+	display: none;}
+
+
+
+}
+
+
+@media screen and (max-width: 670px){
+			
+	.toptext{
+		top:320px;
+	font-size: 20px;
+
+	}
+
+		.introimg   img:last-child {
+ 			 display: none; 
+			}
+
+
+	.introimg   img:last-child {
+ 			 display: block; 
+			}
+
+	 .introimg   img:first-child {
+ 			display: none;  
+			}
+
+
+	.aboutbar {
+	height: 320px;
+	padding-top: 25px;
+	font-size: 18px;
+	line-height: 25px;
+	}
+
+
+	.aboutbar h2 {
+	
+	font-size: 20px;
+	line-height: 30px;
+	}
+
+	.MVbar {
+		height: 20px;
+		font-size: 8px;
+		border:none;
+
+	}
+
+	.aboutbar{
+		font-size: 8px;
+	}
+
+
+
+	.mright{
+
+	height: 30px;
+}
+
+
+.vleft{
+
+height: 30px;
+
+}
+
+.search{
+	display: none;
+}
+
+.products{
+	display: none;}
+
+
+
+}
+
+
+
+@media screen and (max-width: 635px){
+			
+	.toptext{
+		top:250px;
+	font-size: 20px;
+
+	}
+
+		.introimg   img:last-child {
+ 			 display: none; 
+			}
+
+
+	.introimg   img:last-child {
+ 			 display: block; 
+			}
+
+	 .introimg   img:first-child {
+ 			display: none;  
+			}
+
+
+
+
+	.aboutbar {
+		height: 290px;
+	padding-top: 25px;
+	font-size: 15px;
+	line-height: 25px;
+	}
+
+
+	.aboutbar h2 {
+	
+	font-size: 25px;
+	line-height: 30px;
+	}
+
+
+
+	.aboutbar h2 {
+	
+	font-size: 15px;
+	line-height: 30px;
+	}
+
+	
+
+	.aboutbar{
+		font-size: 15px;
+	}
+
+
+	.mright{
+
+	height: 17px;
+}
+	.MVbar{
+
+display: none;
+
+
+}
+
+.vleft{
+
+height: 17px;
+
+}
+
+.search{
+	display: none;
+}
+
+.products{
+	display: none;}
+
+
+
+}
+
+@media screen and (max-width: 455px){
+	.MVbar{
+
+display: none;
+
+
+}
+
+
+	.mright{
+
+	height: 41px;
+	clear:both;
+	width: 100%;
+	margin: 0;
+padding: 0;
+border:0px;
+background-color: transparent;
+}
+
+
+.vleft{
+
+height: 41px;
+clear:both;
+width: 100%;
+margin: 0;
+padding: 0;
+border:0px;
+background-color: transparent;
+}
+
+.aboutbar{
+	font-size: 8px;
+	clear:both;
+}
+
+.search{
+	display: none;
+}
+
+.products{
+	display: none;}
+
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 430px){
+			
+	.toptext{
+		top:210px;
+	font-size: 10px;
+	border:2px solid white;
+	}
+
+	.toptext h2{
+		font-size: 23px;
+
+	}
+
+	.toptext h3{
+		font-size: 16px;
+		padding: 10px;
+
+	}
+
+	.toptext a{
+		padding-bottom: 60px;
+		margin: 5px;
+		border:0px;
+		left: 25%;
+		right: 25%;
+
+		
+
+	}
+
+
+		.introimg   img:last-child {
+ 			 display: none; 
+			}
+
+
+	.introimg   img:last-child {
+ 			 display: block; 
+			}
+
+	 .introimg   img:first-child {
+ 			display: none;  
+			}
+
+
+	.aboutbar {
+		height: 250px;
+	padding-top: 20px;
+	font-size: 10px;
+	line-height: 25px;
+	position: absolute;
+	}
+
+
+	.aboutbar h2 {
+	
+	font-size: 25px;
+	line-height: 25px;
+	}
+
+	.mright{
+
+	height: 17px;
+}
+
+
+.vleft{
+
+height: 17px;
+
+}
+
+.search{
+	display: none;
+}
+
+
+.products{
+	display: none;}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* website fonts:;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Russo One', sans-serif;
+*/

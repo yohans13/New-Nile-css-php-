@@ -1,0 +1,42 @@
+.main{
+margin-top: 10px;
+height: 560px;
+font-family: 'Mulish', sans-serif;
+}
+
+
+
+
+.signinBody{
+margin-top: 0px;
+height: auto;
+font-family: 'Mulish', sans-serif;
+width: 1000px;
+position: absolute;
+
+}
+
+
+.title{
+	margin-top: 85px;
+	margin-left: 42%;
+	font-family: 'Mulish', sans-serif;
+
+}
+
+
+.leftside p{
+	margin-left: 24%;
+	
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+	
+}
+
+
+
+/* website fonts:;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Russo One', sans-serif;
+*/

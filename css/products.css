@@ -1,0 +1,102 @@
+.main{
+margin-top: 40px;
+height: 400px;
+font-family: 'Mulish', sans-serif;
+}
+
+
+.main1{
+margin-top: 10px;
+height: 450px;
+font-family: 'Mulish', sans-serif;
+}
+
+
+
+
+
+.signinBody{
+margin-top: 0px;
+height: 500px;
+font-family: 'Mulish', sans-serif;
+width: 650px;
+
+position: absolute;
+
+}
+
+
+.signinBody1{
+margin-top: 0px;
+height: 500px;
+font-family: 'Mulish', sans-serif;
+width: 650px;
+
+position: absolute;
+
+}
+
+
+.title{
+	margin-top: 100px;
+	margin-left: 42%;
+	font-family: 'Mulish', sans-serif;
+
+}
+
+
+.leftside{
+	margin-left: 20%;
+	margin-right: 10%;
+	float: left;
+}
+
+.leftside1{
+	margin-left: 20%;
+	margin-right: 10%;
+	float: left;
+}
+
+
+
+.rightside{
+	margin-top: 0px;
+	margin-right: 8%;
+	float: right;
+	position: relative;
+	font-family: 'Mulish', sans-serif;
+	width: 440px;
+}
+
+.rightside1{
+	margin-top: 0px;
+	margin-right: 8%;
+	float: right;
+	position: relative;
+	font-family: 'Mulish', sans-serif;
+	width: 440px;
+}
+
+
+
+
+p{
+	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+}
+
+
+.rightside img{
+	width: 100%;
+}
+
+
+
+.rightside1 img{
+	width: 100%;
+}
+/* website fonts:;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Russo One', sans-serif;
+*/

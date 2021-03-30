@@ -1,0 +1,46 @@
+CREATE TABLE User(
+    	id int  AUTO_INCREMENT,
+    	fname varchar(150),
+    	lname varchar(100),
+    	Email varchar(200),
+   	Password varchar(20),
+    	Country varchar(50),
+    	company varchar(150),
+    	Address1 varchar(400),
+    	Address2 varchar(400),
+    	city varchar(100),
+    	Province varchar(100),
+   	PhoneNumber varchar(15),
+    	ZipCode int,
+	type varchar(10),
+    PRIMARY key(id,Email)
+		);
+
+CREATE TABLE Item(
+		ItemId int AUTO_INCREMENT,
+    	ItemName varchar(100),
+    	Price int,
+    	Image varchar(400),
+    	PRIMARY KEY(ItemId)
+
+		);
+
+CREATE TABLE Orders(
+		Cid int,
+    	ItemId int,
+    	quantity int,
+    	TotalPrice int,
+    	PRIMARY KEY(Cid,ItemId),
+    CONSTRAINT FK_user FOREIGN KEY (Cid)
+    REFERENCES user(id)
+    on DELETE CASCADE on UPDATE CASCADE,
+    CONSTRAINT FK_item FOREIGN KEY (ItemId)
+    REFERENCES item(ItemId)
+    on DELETE CASCADE on UPDATE CASCADE
+    
+		);
+
+ALTER TABLE user
+ADD CONSTRAINT FK_zipcode
+FOREIGN KEY (ZipCode) REFERENCES deliverfee(Zipcode)
+on DELETE CASCADE on UPDATE CASCADE;

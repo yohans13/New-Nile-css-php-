@@ -1,0 +1,297 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+a{
+	text-decoration: none;
+	color: #000000;
+}
+
+
+/* ----------- header page css -------------*/
+
+.topbar{
+	background: #231f20;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center; 	
+	font-size: 12px;
+	width: 100%;
+}
+
+.topbar p{
+	
+	padding: 12px;
+}
+
+.logosec img {
+	width: 9%;
+	height: auto;
+	padding: 20px;
+	float: left;
+
+}
+
+
+
+.navbar ul li{
+	list-style: none;
+	display: inline;
+	padding: 10px;
+	margin: 20px;
+	font-family: 'Russo One', sans-serif;
+
+}
+
+.navbar ul li a:hover {
+	
+	color:#ef5501;
+	transition: 0.3s;
+
+}
+
+.navbar ul{
+	margin-top:  3%;
+	margin-left: 20%;
+}
+
+a{
+	background: transparent;
+	border:0px solid black;
+}
+
+a img{
+	width: 3%;
+	float: right;
+	padding: 10px;
+
+}
+
+.icon{
+	margin-right: 2%;
+	margin-top: 1%;
+	
+}
+
+.webbar{
+	float: left;
+	width: 60%;
+	margin-top: 1%;
+}
+
+.mobileNav{
+	width: 100%;
+	display: none;
+}	
+
+
+
+.icon1:hover{
+	background-image: url('img/icon/shopping-cartO.png');
+		width: 3%;
+		
+}
+
+.icon2:hover{
+	background-image: url('img/icon/userO.png');
+		width: 3%;
+		
+}
+
+.icon3:hover{
+		background-image: url('img/icon/contactO.png');
+			width: 3%;
+			
+
+}
+
+
+
+/* show & hidden(hover) icons */
+
+
+	.icon a img:last-child {
+ 			 display: none; 
+			}
+
+
+	.icon a:hover img:last-child {
+ 			 display: block;
+ 			
+			}
+
+	 .icon a:hover img:first-child {
+ 			display: none;  
+			}
+
+			
+
+
+
+
+/* ----------- change for different size displays -------------*/
+
+@media screen and (max-width: 1150px){
+
+	.navbar ul li{
+	
+	padding: 5px;
+	margin: 10px;
+	height: 20px;
+	
+}
+
+@media screen and (max-width: 900px){
+
+	.navbar ul li{
+	font-size: 10px;
+	padding: 5px;
+	margin: 8px;
+	height: 20px;
+	
+		}
+
+}
+
+
+
+.mobileNav{
+	width: 100%;
+	display: none;
+}
+
+.mobileNav ul li{
+	width: 100%;
+	display: block;
+	
+}
+
+.mobileNav ul li a{
+	width: 100%;
+	
+	
+}
+
+.mobileNav h3{
+	padding: 20px;
+	
+}
+
+
+@media screen and (max-width: 620px){
+
+	.mobileNav{
+	width: 100%;
+	float: left;
+	display: block;
+	background: gray;
+	color: white;
+	padding-top: 10px;	
+	padding-bottom: 10px;
+	z-index: 999;
+	position: relative;
+
+	}
+
+	.mobileNav ul{
+	display: none;
+	}
+
+	.mobileNav ul li a {
+		color: white;
+		font-family: 'Montserrat', sans-serif;
+		z-index: 999;
+		font-weight: bold;
+		font-size: 30px;
+		line-height: 20px;
+		text-align: center;
+	}
+
+	.mobileNav ul li a:hover {
+		color: #22499c;
+		font-family: 'Montserrat', sans-serif;
+		z-index: 999;
+		font-weight: bold;
+	}
+
+	.mobileNav h3{
+	padding:0px;
+	margin: 0px;
+	font-family: 'Mulish', sans-serif;
+	z-index: 900;
+
+	}
+
+	.mobileNav  img{
+	
+	width: 20px;
+	padding:2px;
+	float: left;
+	margin-left: 11px;
+	z-index: 900;
+	}
+
+
+
+	.webbar{
+		display: none;
+	}
+	
+	.icon{
+	float: right;
+	margin-top: 2%;
+	position: absolute;
+
+	}
+
+	
+
+	.logosec img {
+	width: 80px;
+	
+	margin: 0px;
+	float: left;
+
+}
+
+
+		
+
+
+
+}
+
+
+
+@media screen and (max-width: 500px){
+.logosec img {
+	width: 9%;
+	height: auto;
+	padding: 15px;
+	float: left;
+
+	}
+}
+
+
+
+
+
+/* ----------- header page css -------------*/
+
+
+
+
+/*------------------------------------------------------------------*/
+
+
+
+
+
+/* website fonts:;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Russo One', sans-serif;
+*/

@@ -1,0 +1,118 @@
+.main{
+margin-top: 10px;
+height: 350px;
+font-family: 'Mulish', sans-serif;
+}
+
+
+
+
+.signinBody{
+margin-top: 0px;
+height: auto;
+font-family: 'Mulish', sans-serif;
+width: 750px;
+position: absolute;
+
+}
+
+
+.title{
+	margin-top: 85px;
+	margin-left: 42%;
+	font-family: 'Mulish', sans-serif;
+
+}
+
+
+.leftside{
+	margin-left: 20%;
+	margin-right: 10%;
+	
+}
+
+textarea{
+	padding: 10px;
+	margin-top: 10px;
+	width: 100%;
+	resize: none;
+}
+
+input[type=text]{
+	padding: 10px;
+	margin-top: 10px;
+	width: 100%;
+}
+
+
+
+input[type=email]{
+	padding: 10px;
+	margin-top: 10px;
+	width: 100%;
+}
+
+label{
+	margin-bottom: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+ input[type=submit]{
+
+	top: 600px;
+	padding: 10px;
+	background-color: black;
+	margin: 10px;
+	color: white;
+	border: 0px;
+	padding: 12px;
+	width: 170px;
+}
+
+
+ input[type=submit]:hover{
+background-color: #ef5501;
+color: white;
+transition: 0.3s;
+}
+
+
+
+
+
+.submitbtn{
+	height: 100px;
+}
+
+
+.rightside{
+	margin-top: 40px;
+	margin-right: 5%;
+	
+	float: right;
+	background-color: #f2f2f2;
+	position: relative;
+	height: 240px;
+	width: 450px;
+}
+
+
+
+.rightside img{
+	width: 100%;
+}
+
+
+
+.story{
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 10%;
+	text-align: justify;
+	font-size: 20px;
+}
+/* website fonts:;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Russo One', sans-serif;
+*/

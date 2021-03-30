@@ -1,0 +1,297 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+
+
+
+/* ----------- Footer page css -------------*/
+
+.fixbtn a img{
+	
+	position: fixed;
+	top:575px;
+	left:90%;
+	width: 80px;
+	z-index: 999;
+	padding: 10px;
+
+}
+
+
+.Footermain{
+	background-color: #231f20;
+	height: 350px;
+	width: 100%;
+	margin-bottom:0%; 
+
+}
+
+
+
+ .set1 ul li a{
+	color: white;
+	font-family: 'Mulish', sans-serif;
+
+
+}
+
+.set2 ul li a ,.set3 ul li a{
+	margin-top: 15px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.set2 p {
+	margin-top: 10px;
+	color: gray;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10px;
+	letter-spacing: 1px;
+	line-height: 19px;
+}
+
+.set3 li{
+	margin-top: 18px;
+	color: gray;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	letter-spacing: 1px;
+	line-height: 19px;
+}
+
+.set2 h4 ,.set3 h4{
+	color: white;
+	font-family: 'Mulish', sans-serif;
+	font-size: 18px;
+
+}
+
+.set2 ul li a:hover {
+	color: #ef5501;
+	font-family: 'Montserrat', sans-serif;
+}
+
+ .set1 ul li a:hover ,.set3 ul li a:hover {
+	color: #ef5501;
+	font-family: 'Mulish', sans-serif;
+
+}
+
+.set1 ul,.set2 ul,.set3 ul{
+	list-style: none;
+	
+	
+}
+
+
+.set1{
+	float: left;
+	margin-top: 3%;
+	margin-left: 3%;
+	font-size: 15px;
+	font-size: 25px;
+}
+
+.set2,.set3{
+	float: left;
+	margin-top: 3%;
+	margin-left: 5%;
+	font-size: 15px;
+	font-size: 25px;
+
+}
+
+
+.Socialmedia{
+	left: 75%;
+	position: absolute;
+	margin-left:  6%;
+}
+
+
+.Socialmedia img {
+	width: 20%;
+	margin-top: 29px;
+
+}
+
+
+/* show & hidden(hover social media icons) icons */
+
+
+	.Socialmedia a img:last-child {
+ 			 display: none; 
+			}
+
+
+	.Socialmedia a:hover img:last-child {
+ 			 display: block; 
+			}
+
+	 .Socialmedia a:hover img:first-child {
+ 			display: none;  
+			}
+
+
+.copyrigths p{
+	font-family: 'Mulish', sans-serif;
+	margin: 10px;
+	font-size: 10px;
+	color: white;
+	text-align: center;
+}
+
+.mobilecopyrigths{
+	display: none;
+}
+
+.mobileSocialmedia{
+	display: none;
+}
+
+.pp1 p{
+	
+	top: 92%;
+}
+
+
+/* ----------- Footer page css -------------*/
+
+
+
+/* ----------- change for different size displays -------------*/
+
+@media screen and (max-width: 1000px){
+
+	.Footermain{
+  
+  width: 100%;
+  height: 100%; 
+}
+
+.copyrigths{
+	display: none;
+}
+
+.fixbtn a img{
+	
+	position: fixed;
+	top:506px;
+	left:80%;
+	width: 80px;
+	z-index: 999;
+	padding: 10px;
+
+}
+	
+	.set1,.set2,.set3{
+	clear:both;
+	}
+
+	.Socialmedia{
+	
+	display: none;
+	}
+
+	.Footermain{
+		height: 630px;
+	}
+
+	.copyrigths p{
+	display: none;
+}
+
+.mobilecopyrigths{
+	display: block;
+	background-color: #231f20;
+	color: white;
+}
+
+.mobilecopyrigths p{
+	font-family: 'Montserrat', sans-serif;	
+	text-align: center;
+	position: relative;
+	color: white;
+	width:100%
+	z-index: 100;	
+	padding: 10px;
+	font-size: 7px;
+}
+
+.mobileSocialmedia {
+	
+	display: block;
+	clear:both;
+}
+
+
+.mobileSocialmedia a img{
+	width: 20px;
+	
+	position: relative;
+	
+
+	
+	font-size: 7px;
+	
+}
+
+.set1{
+	float: left;
+	margin-top: 3%;
+	margin-left: 3%;
+	font-size: 15px;
+	font-size: 25px;
+	border-bottom: 1px solid white;
+	padding-bottom: 15px;
+}
+
+.set2,.set3{
+	float: left;
+	margin-top: 3%;
+	margin-left: 5%;
+	font-size: 15px;
+	font-size: 25px;
+	border-bottom: 1px solid white;
+	padding-bottom: 15px;
+}
+
+.fixbtn a img{
+	
+	position: fixed;
+	top:480px;
+	left:80%;
+	width: 50px;
+	z-index: 999;
+	padding: 10px;
+
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* website fonts:;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Russo One', sans-serif;
+*/

@@ -1,0 +1,160 @@
+.main{
+margin-top: 40px;
+height: 560px;
+font-family: 'Mulish', sans-serif;
+}
+
+
+
+
+.signinBody{
+margin-top: 0px;
+height: 500px;
+font-family: 'Mulish', sans-serif;
+width: 650px;
+
+position: absolute;
+
+}
+
+
+.title{
+	margin-top: 100px;
+	margin-left: 42%;
+	font-family: 'Mulish', sans-serif;
+
+}
+
+
+.leftside{
+	margin-left: 20%;
+	margin-right: 10%;
+	float: left;
+}
+
+
+input[type=text]{
+	padding: 10px;
+	margin-top: 10px;
+	width: 85%;
+}
+
+input[type=password]{
+	padding: 10px;
+	margin-top: 10px;
+	width: 85%;
+}
+
+input[type=tel]{
+	padding: 10px;
+	margin-top: 10px;
+	width: 85%;
+}
+
+select{
+padding: 10px;
+	margin-top: 10px;
+	width: 85%;
+	
+}
+
+input[type=email]{
+	padding: 10px;
+	margin-top: 10px;
+	width: 85%;
+}
+
+label{
+	margin-bottom: 30px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.leftside a {
+	margin-bottom: 30px;
+	font-family: 'Montserrat', sans-serif;
+	border-bottom : 1px solid gray;
+	font-size: 14px;
+
+}
+
+.leftside a:hover {
+	color:tomato;
+	margin-bottom: 30px;
+	font-family: 'Montserrat', sans-serif;
+	border-bottom : 1px solid tomato;
+
+}
+
+input[type=submit]{
+
+	top: 600px;
+	padding: 10px;
+	background-color: #231f20;
+	margin: 10px;
+	color: white;
+	border: 0px;
+	padding: 12px;
+	width: 170px;
+}
+
+input[type=submit]:hover{
+background-color: #ef5501;
+color: white;
+transition: 0.5s;
+}
+
+.rightside{
+	margin-top: 0px;
+	margin-right: 8%;
+	float: right;
+	position: relative;
+	font-family: 'Mulish', sans-serif;
+	width: 440px;
+}
+
+
+.classTitle{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.classbody{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+}
+
+.classlist{
+	margin-left: 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+}
+
+
+
+.rightside input[type=submit]{
+	padding: 10px;
+	background-color: #231f20;
+	margin: 25px;
+	text-shadow: none;
+	color: white;
+	border: 0px;
+	padding: 12px;
+	width: 150px;
+}
+
+.rightside input[type=submit]:hover{
+background-color: #ef5501;
+color: white;
+transition: 0.5s;
+}
+
+.submitbtn{
+	height: 100px;
+}
+
+/* website fonts:;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Russo One', sans-serif;
+*/
